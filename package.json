@@ -1,0 +1,20 @@
+{
+  "name": "some linear pure javascript structures implementation for my course",
+  "description": "Algos and structures js",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/kesjien/linear_structures.git",
+  "devDependencies": {
+    "jasmine-node": "~2.0.0"
+  },
+  "author": {
+    "name": "Glib Kechyn (kessssss)",
+  },
+  "engines": {
+    "node": ">=0.4.0"
+  },
+  "scripts": {
+    "pretest": "npm install",
+    "test": "jasmine-node spec"
+  }
+}
